@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Regular.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+.x3 {
+  transform-origin: top left;
+  transform: scale(3);
+}

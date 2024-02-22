@@ -1,0 +1,24 @@
+{
+  "name": "odin-homepage",
+  "version": "1.0.0",
+  "description": "This repo is a The Odin Project(TOP) exercise to implement a basic homepage to use as a portifolio in the future.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1"
+  }
+}
