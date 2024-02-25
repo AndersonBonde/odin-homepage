@@ -22,6 +22,16 @@ body {
   font-family: 'Playfair';
 }
 
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+}
+
 /* Header */
 
 body > header {
@@ -65,7 +75,6 @@ body > header {
 }
 
 .about-me > h2 {
-  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 
@@ -96,7 +105,6 @@ main {
 }
 
 main > h2 {
-  font-size: 2.5rem;
   padding-block: 1rem;
 }
 
@@ -156,4 +164,56 @@ main > h2 {
 
 .card-description-links a:visited {
   color: unset;
+}
+
+/* Footer */
+
+.footer-container {
+  min-height: 100vh;
+  padding: 4rem;
+  display: flex;
+  background-color: rgb(47, 181, 235);
+}
+
+.footer-info {
+  min-width: 30vw;
+  background-color: white;
+  margin-block: 4rem;
+  border-radius: 16px 0 0 16px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-info h2 {
+  margin-bottom: 1rem;
+}
+
+.phone-info {
+  display: flex;
+  padding-block: 6px;
+  gap: 16px;
+  margin-top: auto;
+}
+
+.email-info {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-links {
+  margin-top: .5rem;
+  display: flex;
+  gap: 16px;
+}
+
+.footer-links a:visited {
+  color: unset;
+}
+
+footer img {
+  max-width: 100%;
+  min-height: calc(100vh - 8rem);
+  border-radius: 0 36px 36px 0;
+  object-fit: cover;
 }
