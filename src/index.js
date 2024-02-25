@@ -1,6 +1,7 @@
 import './style.css';
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
+import '@fortawesome/fontawesome-free/js/brands';
 
 import headerBGImage from './images/large-triangles.svg';
 import headerMainImage from './images/pexels-tranmautritam-225502.jpg';

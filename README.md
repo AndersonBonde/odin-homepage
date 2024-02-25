@@ -11,3 +11,7 @@ Images
 Photo by Lisa Fotios: https://www.pexels.com/photo/white-rolling-armchair-beside-table-1957478/
 
 Photo by Tranmautritam: https://www.pexels.com/photo/nescafe-cup-near-imac-225502/
+
+Photo by Pixabay: https://www.pexels.com/photo/white-clouds-531767/
+
+Photo by Konevi: https://www.pexels.com/photo/aerial-photo-of-fluffy-clouds-3789871/
