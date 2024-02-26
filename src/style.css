@@ -58,6 +58,7 @@ body > header {
   font-family: 'Playfair';
   color: white;
   font-size: 4.5rem;
+  font-size: 4.75vw;
   padding: 24px;
   bottom: 0;
   left: 50%;
@@ -131,7 +132,7 @@ main > h2 {
 .project-card > h3 {
   position: absolute;
   left: 50%;
-  top: calc(360px / 2);
+  top: calc(300px / 2);
   transform: translate(-50%, -50%);
   font-size: 2rem;
 }
@@ -218,16 +219,100 @@ footer img {
   object-fit: cover;
 }
 
+/* Tablet breakpoint */
+
+@media (max-width: 1200px) {
+  /* Header */
+
+  body > header {
+    padding: 3rem;
+    height: unset;
+  }
+  
+  .header-image-container {
+    max-width: calc(50vw - 3rem);
+    height: unset;
+  }
+  
+  .author-name {
+    font-size: 3.5rem;
+    font-size: 6.5vw;
+    padding: 12px;
+    bottom: unset;
+    top: 0;
+    left: 50%;
+    transform: unset;
+  }
+
+  .about-me {
+    width: calc(50vw - 3rem);
+    margin-block: unset;
+    margin-top: 8rem;
+    padding: 24px;
+  }
+  
+  .about-me > h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .about-me > p {
+    font-size: 1.35rem;
+    line-height: 2.15rem;
+  }
+  
+  .about-me-links {
+    display: none;
+  }
+
+  /* Main */
+
+  main {
+    padding: 3rem;
+  }
+
+  .my-projects-container {
+    gap: 36px;
+  }
+  
+  .project-card {
+    min-width: calc(480px - 6rem);
+  }
+
+  /* Footer */
+
+  .footer-container {
+    min-height: unset;
+    padding: 3rem;
+  }
+
+  .footer-info {
+    margin-block: 3rem;
+    padding: 1rem;
+  }
+
+  .email-info,
+  .phone-info {
+    word-wrap: break-word;
+    word-break: break-all;
+  }
+
+  footer img {
+    min-height: 100%;
+    border-radius: 0 36px 36px 0;
+    object-fit: cover;
+  }
+}
+
 /* Mobile breakpoint */
 
 @media (max-width: 480px) {
+  /* Header */
+
   body > header {
     flex-direction: column;
     padding: 2rem;
     height: unset;
   }
-
-  /* Header */
 
   .header-image-container {
     max-width: unset;
