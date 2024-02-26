@@ -138,7 +138,7 @@ main > h2 {
 
 .project-card > img {
   width: 100%;
-  max-height: 360px;
+  height: 300px;
   object-fit: cover;
   border-radius: inherit;
 }
@@ -216,4 +216,125 @@ footer img {
   min-height: calc(100vh - 8rem);
   border-radius: 0 36px 36px 0;
   object-fit: cover;
+}
+
+/* Mobile breakpoint */
+
+@media (max-width: 480px) {
+  body > header {
+    flex-direction: column;
+    padding: 2rem;
+    height: unset;
+  }
+
+  /* Header */
+
+  .header-image-container {
+    max-width: unset;
+    height: 240px;
+  }
+
+  .headerImage {
+    border-radius: 24px 24px 0 0;
+    object-fit: cover;
+  }
+
+  .author-name {
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    bottom: 0;
+    left: unset;
+    transform: unset;
+    white-space: wrap;
+  }
+
+  .about-me {
+    position: relative;
+    background-color: white;
+    width: unset;
+    margin-block: unset;
+    border-radius: 0 0 16px 16px;
+    padding: 36px;
+  }
+  
+  .about-me > h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .about-me > p {
+    font-family: 'Roboto';
+    font-size: 1.15rem;
+    line-height: 1.75rem;
+  }
+
+  .about-me-links {
+    position: relative;
+    display: flex;
+    gap: 16px;
+    right: unset;
+    bottom: unset;
+    justify-content: center;
+    margin-bottom: -20px;
+  }
+
+  /* Main */
+
+  main {
+    min-height: unset;
+    padding: 2rem;
+  }
+
+  .my-projects-container {
+    gap: 24px;
+  }
+
+  .project-card {
+    position: relative;
+    min-width: calc(100vw - 4rem);
+    min-height: unset;
+  }
+
+  .project-card > h3 {
+    top: calc(300px / 2);
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  }
+
+  /* Footer */
+
+  .footer-container {
+    min-height: unset;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(47, 181, 235);
+  }
+
+  .footer-info {
+    min-width: unset;
+    background-color: white;
+    margin-block: unset;
+    border-radius: 16px 16px 0 0;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-info h2 {
+    text-align: center;
+    margin-top: -1rem;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+
+  footer img {
+    min-height: unset;
+    height: 300px;
+    border-radius: 0 0 36px 36px;
+    object-fit: cover;
+  }
 }
