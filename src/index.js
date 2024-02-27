@@ -25,6 +25,6 @@ import footerImg from './images/pexels-lisa-fotios-1957478.jpg';
 
   const mainImages = document.querySelectorAll('main img');
   mainImages.forEach((el, idx) => {
-    el.src = `${cloudImg + (idx % 2 + 1)}`;
+    el.src = (idx % 2) ? cloudImg1 : cloudImg2;
   });
 }());
